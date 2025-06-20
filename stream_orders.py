@@ -11,8 +11,8 @@ spark = SparkSession.builder \
         "org.apache.commons:commons-pool2:2.11.1,"
         "org.lz4:lz4-java:1.7.1,"
         "io.dropwizard.metrics:metrics-core:4.1.12.1") \
-    .config("spark.hadoop.fs.s3a.access.key", "AKIAXURAMWKSY2PTT7HZ") \
-    .config("spark.hadoop.fs.s3a.secret.key", "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") \
+    .config("spark.hadoop.fs.s3a.access.key", "") \
+    .config("spark.hadoop.fs.s3a.secret.key", "") \
     .config("spark.hadoop.fs.s3a.endpoint", "s3.amazonaws.com") \
     .config("spark.hadoop.fs.s3a.path.style.access", "true") \
     .config("spark.hadoop.fs.s3a.impl", "org.apache.hadoop.fs.s3a.S3AFileSystem") \
